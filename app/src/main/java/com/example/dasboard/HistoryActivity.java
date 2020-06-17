@@ -18,6 +18,6 @@ public class HistoryActivity extends Activity {
         setContentView(R.layout.activity_main);
         simpleList = (ListView) findViewById(R.id.simpleListView);
         CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), List, img);
-        simpleList.setAdapter(customAdapter);
+      simpleList.setAdapter(customAdapter);
     }
 }
