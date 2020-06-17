@@ -40,9 +40,9 @@ public class CustomAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         view = inflter.inflate(R.layout.list_item, null);
         TextView list = (TextView) view.findViewById(R.id.textView);
-        ImageView phone = (ImageView) view.findViewById(R.id.icon);
+        ImageView icon = (ImageView) view.findViewById(R.id.icon);
        list.setText(List[i]);
-       phone.setImageResource(img[i]);
+        icon.setImageResource(img[i]);
         return view;
     }
 

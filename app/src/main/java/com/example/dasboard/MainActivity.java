@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 CardView Rent;
@@ -15,10 +16,22 @@ CardView Return;
 CardView NearBy;
 CardView History;
 Button Scan;
+
+   // ListView simpleList;
+    //String List[] = {"Rent", "Return", "NearBy", "Histry"};
+   // int img [] = {R.drawable.phone, R.drawable.phone, R.drawable.phone, R.drawable.phone};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+       // simpleList = (ListView) findViewById(R.id.simpleListView);
+       // CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), List, img);
+       // simpleList.setAdapter(customAdapter);
+
+
+
         Rent = (CardView) findViewById(R.id.card);
         Return = (CardView) findViewById(R.id.card1);
         NearBy = (CardView) findViewById(R.id.card2);
