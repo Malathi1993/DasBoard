@@ -10,4 +10,5 @@
     <dimen name="_25sdp" />
     <dimen name="_35sdp" />
     <dimen name="_2sdp" />
+    <dimen name="activity_horizontal_margin" />
 </resources>
