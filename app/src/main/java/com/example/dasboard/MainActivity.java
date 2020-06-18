@@ -20,6 +20,7 @@ Button Scan;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Rent = (CardView) findViewById(R.id.card);
         Return = (CardView) findViewById(R.id.card1);
         NearBy = (CardView) findViewById(R.id.card2);

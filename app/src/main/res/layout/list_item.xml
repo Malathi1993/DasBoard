@@ -14,6 +14,5 @@
         android:id="@+id/textView"
         android:layout_width="351dp"
         android:layout_height="47dp"
-        android:padding="@dimen/activity_horizontal_margin"
-        android:textColor="@color/black" />
+        android:padding="@dimen/activity_horizontal_margin" />
 </LinearLayout>

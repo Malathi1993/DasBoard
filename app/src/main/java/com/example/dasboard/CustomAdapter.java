@@ -41,11 +41,8 @@ public class CustomAdapter extends BaseAdapter {
         view = inflter.inflate(R.layout.list_item, null);
         TextView list = (TextView) view.findViewById(R.id.textView);
         ImageView icon = (ImageView) view.findViewById(R.id.icon);
-       list.setText(List[i]);
+        list.setText(List[i]);
         icon.setImageResource(img[i]);
         return view;
-    }
-
-    {
     }
 }
