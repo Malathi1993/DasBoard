@@ -8,6 +8,8 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
+import com.google.android.material.navigation.NavigationView;
+//import com.google.android.material.navigation.NavigationView;
 
 public class NavActivity extends AppCompatActivity {
         DrawerLayout dLayout;
